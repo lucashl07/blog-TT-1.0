@@ -1,7 +1,70 @@
 body {
-    background-color: #f0f0f0;
-   font-family: Arial;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
 }
-hi {
-    color: darkblue;
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
+
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    padding: 20px;
+}
+
+.post {
+    flex: 3;
+    margin-right: 20px;
+}
+
+.post article {
+    background: #f4f4f4;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+aside {
+    flex: 1;
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 0 5px #ccc;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-aling: center;
+    padding: 10px;
+}
+
